@@ -1,6 +1,6 @@
 # MERN template
 MongoDB Express React Node.js
-<br>**with simple auth**
+<br>**ready to prod | with simple auth**
 
 **Frontend**
 - proxy on port:5000
@@ -19,6 +19,12 @@ MongoDB Express React Node.js
 - config
 - bcryptsjs
 - jsonwebtoken
+
+**Package**
+- cross-env
+
+## scripts
+**start** | **server** | **client** | **client:install** | **client:build** | **dev** - with cross_env
 
 ## Start
 **Don't forget to add your MongoDB**
