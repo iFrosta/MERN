@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  background: #212121;
+  h1 {
+    font-size: calc(50px + 1vw);
+    font-weight: bold;
+    color: white;
+
+    background: rgb(43,123,36);
+    background: linear-gradient(90deg, rgba(43,123,36,1) 0%, rgba(54,54,54,1) 30%, rgba(49,96,144,1) 70%, rgba(150,185,59,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
